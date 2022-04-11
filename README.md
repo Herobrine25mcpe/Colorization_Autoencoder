@@ -4,4 +4,4 @@ This is project creating image colorization model for abstract images.
 
 # Model V1
 
-![](src images/v1-loss.png)
+![](images/v1-loss.png)
