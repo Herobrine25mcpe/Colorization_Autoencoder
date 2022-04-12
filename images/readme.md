@@ -1,6 +1,6 @@
 # Screenshots
 
-![](images/v1-loss.png)
-![](images/v1-accuracy.png)
-![](images/v2-loss.png)
-![](images/v2-accuracy.png)
+![](v1-loss.png)
+![](v1-accuracy.png)
+![](v2-loss.png)
+![](v2-accuracy.png)
