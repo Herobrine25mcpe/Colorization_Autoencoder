@@ -8,20 +8,22 @@ Created on Wed Apr  6 22:01:35 2022
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from skimage.color import rgb2lab, lab2rgb
 from skimage.transform import resize
-from skimage.io import imsave, imshow
+from skimage.io import imsave
 import numpy as np
 import tensorflow as tf
+import matplotlib.pyplot as plt
+import cv2
 
+path="imx (1).jpg"
 
 model = tf.keras.models.load_model(
-    'colorize_V1.model',
+    'colorize_V12.model',
     custom_objects=None,
     compile=True)
 
 img1_color=[]
-img1=img_to_array(load_img('gtest.jpg'))
+img1=img_to_array(load_img(path))
 img1 = resize(img1 ,(256,256))
-
 
 
 img1_color.append(img1)
@@ -35,4 +37,14 @@ output1 = output1*128
 result = np.zeros((256, 256, 3))
 result[:,:,0] = img1_color[0][:,:,0]
 result[:,:,1:] = output1[0]
+
 imsave("result.png", lab2rgb(result))
+
+
+img = cv2.imread(path)
+resize= cv2.resize(img,(250,250))
+cv2.imshow("img",resize)
+r=cv2.imread("result.png")
+cv2.imshow("result",r)
+cv2.waitKey()
+cv2.destroyAllWindows()
