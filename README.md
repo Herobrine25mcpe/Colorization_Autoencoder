@@ -4,6 +4,10 @@ This is project creating image colorization model for abstract images.
 
 # Model V1
 
+this model was trained extensively over 150 epochs on geometrical abstract images
+
+<img src="result/col_imgV1-1.png" width=200> <img src="result/col_imgV1-2.png" width=200> <img src="result/col_imgV1-3.png" width=200> <img src="result/col_imgV1-4.png" width=200> <img src="result/col_imgV1-5.png" width=200> <img src="result/col_imgV1-6.png" width=200> <img src="result/col_imgV1-7.png" width=200> <img src="result/col_imgV1-8.png" width=200> 
+
 <img src="images/v1-loss.png" width=410>  <img src="images/v1-accuracy.png" width=410>
 
 # Model V2
