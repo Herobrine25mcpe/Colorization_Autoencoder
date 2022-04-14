@@ -20,4 +20,6 @@ this model was trained extensively over 150 epochs on fluid abstract images
 
 # Model V12
 
+this model was trained over 100 epochs on both geometrical as well as fluid abstract images.
+
 <img src="images/v12-loss.png" width=410>  <img src="images/v12-accuracy.png" width=410>
