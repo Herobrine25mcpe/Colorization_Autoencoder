@@ -22,4 +22,6 @@ this model was trained extensively over 150 epochs on fluid abstract images
 
 this model was trained over 100 epochs on both geometrical as well as fluid abstract images.
 
+<img src="result/col_imgV12-1.png" width=200> <img src="result/col_imgV12-2.png" width=200> <img src="result/col_imgV12-3.png" width=200> <img src="result/col_imgV12-4.png" width=200> <img src="result/col_imgV12-5.png" width=200> <img src="result/col_imgV12-6.png" width=200> <img src="result/col_imgV12-7.png" width=200> <img src="result/col_imgV12-8.png" width=200> 
+
 <img src="images/v12-loss.png" width=410>  <img src="images/v12-accuracy.png" width=410>
