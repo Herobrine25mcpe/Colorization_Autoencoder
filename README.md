@@ -3,7 +3,7 @@ This is project creating image colorization model for abstract images.
 
 # Result:
 
-<img src="result/col_imgV1-1.png" width=200> <img src="result/col_imgV1-2.png" width=200> <img src="result/col_imgV12-1.png" width=200>
+<img src="result/imx (1).jpg" width=200> <img src="result/col_imgV1-1.png" width=200> <img src="result/col_imgV2-1.png" width=200> <img src="result/col_imgV12-1.png" width=200>
 
 # Model V1
 
