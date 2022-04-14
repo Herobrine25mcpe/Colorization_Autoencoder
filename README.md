@@ -12,6 +12,10 @@ this model was trained extensively over 150 epochs on geometrical abstract image
 
 # Model V2
 
+this model was trained extensively over 150 epochs on fluid abstract images
+
+<img src="result/col_imgV2-1.png" width=200> <img src="result/col_imgV2-2.png" width=200> <img src="result/col_imgV2-3.png" width=200> <img src="result/col_imgV2-4.png" width=200> <img src="result/col_imgV2-5.png" width=200> <img src="result/col_imgV2-6.png" width=200> <img src="result/col_imgV2-7.png" width=200> <img src="result/col_imgV2-8.png" width=200> 
+
 <img src="images/v2-loss.png" width=410>  <img src="images/v1-accuracy.png" width=410>
 
 # Model V12
