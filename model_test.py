@@ -16,6 +16,8 @@ import cv2
 
 path="imx (1).jpg"
 
+filename="imgV1-1.png"
+
 model = tf.keras.models.load_model(
     'colorize_V12.model',
     custom_objects=None,
@@ -38,13 +40,14 @@ result = np.zeros((256, 256, 3))
 result[:,:,0] = img1_color[0][:,:,0]
 result[:,:,1:] = output1[0]
 
-imsave("result.png", lab2rgb(result))
+imsave(f'col_{filename}', lab2rgb(result))
 
 
 img = cv2.imread(path)
 resize= cv2.resize(img,(250,250))
+cv2.imwrite(filename, resize)
 cv2.imshow("img",resize)
-r=cv2.imread("result.png")
+r=cv2.imread(f'col_{filename}')
 cv2.imshow("result",r)
 cv2.waitKey()
 cv2.destroyAllWindows()
