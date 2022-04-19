@@ -15,6 +15,10 @@ Since grey-scale image has only 1 layer whereas colour has 3, keras library is u
 
 To train autoencoder we will use batches of 150 epochs
 
+# CIE LAB Color Space:
+Cie lab also knowns as LAB color space has 3 channels where L stands for lightness ranged(from 0(black) to 100(white)), A is used for range from green(-ve) to red(+ve) and B is used for range blue(-ve) to yellow(+ve).
+ 
+
 
 # Result:
 
