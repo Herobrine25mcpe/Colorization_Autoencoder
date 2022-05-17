@@ -40,6 +40,11 @@ Cie lab also knowns as LAB color space has 3 channels where L stands for lightne
 
 <img src="result/imgV12-8.png" width=200> <img src="result/col_imgV1-8.png" width=200> <img src="result/col_imgV2-8.png" width=200> <img src="result/col_imgV12-8.png" width=200>
 
+# Original
+
+<img src="result/imgV12-1.png" width=200> <img src="result/imgV12-2.png" width=200> <img src="result/imgV12-3.png" width=200> <img src="result/imgV12-4.png" width=200> 
+<img src="result/imgV12-5.png" width=200> <img src="result/imgV12-6.png" width=200> <img src="result/imgV12-7.png" width=200> <img src="result/imgV12-8.png" width=200> 
+ 
 # Model V1
 
 this model was trained extensively over 150 epochs on geometrical abstract images
